@@ -1,0 +1,23 @@
+npm init -y
+
+npm i sass --save-dev
+
+npm i bootstrap
+
+npm install --save @fortawesome/fontawesome-free
+
+npm i autoprefixer
+
+npm install postcss-cli autoprefixer
+
+mkdir scss && touch scss/style.scss
+
+
+package.json 
+"scripts": {
+    "compile:sass": "sass scss:assets/css",
+    "dev:sass": "sass --watch scss:assets/css"
+  },
+
+  npm run compile:sass
+
